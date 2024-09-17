@@ -1,5 +1,4 @@
 This Python script simulates a simple slot machine game. Here's an overview of the program and how it works:
-
 Key Components:
 1.Game Constants:
 MAX_LINES: Maximum number of lines the player can bet on.
