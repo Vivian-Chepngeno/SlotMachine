@@ -1,3 +1,4 @@
+ #SLOT MACHINE
 This Python script simulates a simple slot machine game. Here's an overview of the program and how it works:
 Key Components:
 1.Game Constants: Define the max lines (3), betting range (1-200), and grid size (3x3).
