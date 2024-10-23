@@ -1,11 +1,23 @@
-This Python script simulates a slot machine game using Tkinter for the GUI. Key features include:
-Game Constants: Defines the maximum number of lines (3), betting range (1-200), and a 3x3 grid.
-Symbols: Symbols have different counts and payout values.
-Functions:
- check_winnings(): Checks and calculates winnings based on the spin.
- get_slot_machine_spin(): Generates a spin with symbols.
- print_slot_machine(): Displays the spin result.
- deposit(): Prompts for an initial deposit.
- get_number_of_lines() and get_bet(): Get the number of lines and bet amount.
- spin(): Manages betting, spinning, and balance updates.
- main(): Runs the game loop, allowing repeated spins or quitting.
+# Slot Machine Game
+
+A simple and fun slot machine game built in Python. Players can deposit money, place bets, and spin to win!
+
+## Features
+
+- **Deposit Funds**: Players can deposit any amount of money to start playing.
+- **Place Bets**: Choose how much to bet and how many lines to bet on (up to 3).
+- **Spin the Reels**: Randomly generates a slot machine outcome.
+- **Winnings Calculation**: Calculates winnings based on the symbols displayed.
+- **User-Friendly Interface**: Easy-to-use console-based interface.
+
+## Game Logic
+
+- The game includes four symbols (A, B, C, D) with defined counts and values.
+- Players can choose how much they want to bet and how many lines they want to play.
+- The game will randomly spin the reels and check for winnings based on the alignment of symbols.
+
+## Technologies Used
+
+- **Language**: Python
+- **Libraries**: Random (for generating random outcomes)
+
